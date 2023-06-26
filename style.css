@@ -4,26 +4,29 @@ body {
     border: 0px;
     /* NOW THAT WE HAVE GOOGLE FONTS, MORE RESOURCES TO USE*/
     font-family: 'Patrick Hand SC', cursive;
+    font-size: 24px;
 }
 
 .title {
     padding: 8px;
-    /* IMPORTANT PADDING LEFT IS 16PX*/
+    /* IMPORTANT*/
+    /* PADDING LEFT IS 16PX*/
     padding-left: 16px;
-    font-size: 36px;
+    font-size: 48px;
     font-weight: 700;
 }
 
-nav {
+
+header {
     display: flex;
     justify-content: space-between;
 }
 
-.working,
-.in-progress {
+.navigation {
     display: flex;
     align-items: center;
     gap: 20px;
+    padding-right: 16px;
 }
 
 header {
@@ -34,4 +37,29 @@ header {
 a {
     text-decoration: none;
     color: black;
+}
+
+/* ================= MAIN CONTENT ====================== */
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro {
+    background-color: rgb(174, 65, 174);
+}
+
+.intro-para {
+    width: 600px;
+}
+
+.future-updates {
+    background-color: rgb(254, 72, 72);
+}
+
+.intro,
+.future-updates {
+    /* IMPORTANT*/
+    /* PADDING LEFT IS 16PX*/
+    padding-left: 16px;
 }
