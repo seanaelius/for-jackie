@@ -1,13 +1,34 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    /* NOW THAT WE HAVE GOOGLE FONTS, MORE RESOURCES TO USE*/
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+.title {
+    padding: 8px;
+    /* IMPORTANT PADDING LEFT IS 16PX*/
+    padding-left: 16px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
-
 }
 
 .working,
 .in-progress {
     display: flex;
+    align-items: center;
     gap: 20px;
+}
+
+header {
+    background-color: gray;
+    padding: 10px;
 }
 
 a {
