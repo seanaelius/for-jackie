@@ -1,0 +1,16 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.working,
+.in-progress {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
