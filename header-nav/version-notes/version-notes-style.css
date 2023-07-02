@@ -65,9 +65,19 @@ header {
 /*=============================================================================================================================*/
 /*MAIN CONTENT THAT NEEDS TO BE CHANGED*/
 /*=============================================================================================================================*/
-
+/*Add all future versions here to have a black borderline underneath*/
 .version-title,
 .version-1-0,
 .version-1-1 {
     border-bottom: 4px solid black;
+    padding: 16px;
+    margin: 0px;
+}
+
+.version-1-0 {
+    background-color: rgb(255, 99, 99);
+}
+
+.version-1-1 {
+    background-color: rgb(108, 108, 251);
 }
