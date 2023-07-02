@@ -65,3 +65,32 @@ header {
 /*=============================================================================================================================*/
 /*MAIN CONTENT THAT NEEDS TO BE CHANGED*/
 /*=============================================================================================================================*/
+
+.faq-title {
+    margin: 0px;
+    padding: 16px 0px 16px 0px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.faq {
+    background-color: rgb(247, 79, 79);
+    padding: 16px 0px 100px 16px;
+}
