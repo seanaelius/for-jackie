@@ -150,3 +150,16 @@ p {
 .dumpwing {
     background-color: pink;
 }
+
+.perry-combined {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#perry-hat {
+    width: 350px;
+    height: 200px;
+    transform: translate(-20px, 250px);
+}
